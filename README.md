@@ -54,13 +54,13 @@ The script generates five output files for every study:
 1. **Tab-separated values file (tsv)**
 	- Contains the processed data with all the values used in the graphical representations.
 
-2. **Bar plot for significant miRNAs (padj < 0.05) (png)**
+2. **Bar plot for significant miRNAs (png)**
 
-3. **Bar plot for percent of significant miRNAs (padj < 0.05) (png)**
+3. **Bar plot for percent of significant miRNAs (png)**
 
-4. **Bar plot for significantly differentially expressed miRNAs (padj < 0.05 and abs(log2FoldChange) > 1) (png)**
+4. **Bar plot for significantly differentially expressed miRNAs (png)**
 
-5. **Bar plot for percent of significantly differentially expressed miRNAs (padj < 0.05 and abs(log2FoldChange) > 1) (png)**
+5. **Bar plot for percent of significantly differentially expressed miRNAs (png)**
 
 ---
 
@@ -81,3 +81,5 @@ The script is divided into three main stages:
 ### 3. Graphical representations
 
 - A bar chart summarizing all the information is generated and saved.
+	- Significant miRNAs (padj < 0.05)
+ 	- Significantly differentially expressed miRNAs (padj < 0.05 and abs(log2FoldChange) > 1)
